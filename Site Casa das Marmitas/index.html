@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	
+	<meta charset="UTF-8">
+	<title>Casa das Marmitas</title>
+    <link rel="shortcut icon" href="_imagens/logo icon.png" type="image/x-png">
+    <link rel="stylesheet" href="./css/vendor/normalize.css">
+    <link rel="stylesheet" href="./css/gallery.prefixed.css">
+    <link rel="stylesheet" href="./css/gallery.theme.css">
+
+
+<style>
+
+            *{ margin: 0;padding: 0; }
+            body{ font-family: "Arial"; }
+            a{ text-decoration: none; color: #fff; }
+            a:hover{ }
+
+            #all{
+                width: auto;
+                height: 50px;
+                line-height: 50px; /* centraliza na vertical */
+                background-color: #111;
+                margin: 0 auto;
+            }
+            ul.menu{
+                text-align: center; /* centraliza na horizontal */
+            }
+            ul.menu li{
+                display: inline-block; /* centraliza na horizontal */
+                margin: 0 5px;
+            }
+            ul.menu li a{
+                background-color: #111;
+                border-radius: 0px;
+                padding: 6px 10px;
+                color: #fff;
+                font-size: 20px;
+                font-weight: bolder;
+            }
+            ul.menu li a:hover{
+                background-color:#111111;
+                color: #FF4500;
+                border-bottom:3px solid #FF0000;
+            }
+            
+            /*Formatação Cardápio*/
+
+            div#corpo {
+                width: 1300px;
+                height: 1350px;
+                color: white;
+                /*background-color: rgba(255,140,000,.7);*/
+                background-image: url(_imagens/black-background.jpg);
+                margin: 5px auto 0px auto;
+                box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+
+            }
+
+            div#m1 {
+                width: 400px;
+                height: 270px;
+                float: left;
+                margin-left: 150px;
+                text-align: center;
+                
+            }
+
+            div#m2 {
+                width: 400px;
+                height: 270px;
+                float: right;
+                margin-right: 150px;
+                text-align: center;
+
+            }
+
+            div#m3 {
+                width: 400px;
+                height: 270px;
+                margin-top: 10px;
+                margin-left: 150px;
+                float: left;
+                clear: both;
+                text-align: center;
+            }
+
+            div#m4 {
+                width: 400px;
+                height: 270px;
+                margin-top: 10px;
+                margin-right: 150px;
+                float: right;
+                text-align: center;
+            }
+
+            div#cardapio {
+                font-family: comic;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            div#pedido2 {
+                /*background: #333333; */
+                width: 1280px;
+                height: 150px;
+                margin-top: 15px;
+                float: left;
+                text-align: center;
+                font-family: comic;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            div#fale {
+              /*background: #333333; */
+                background-color: rgba(000,000,000,.6);
+                width: 1280px;
+                height: 450px;
+                margin-top: 15px;
+                float: left;
+                font-family: comic;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            form {
+               margin-left: 50px;
+            }
+
+
+            .borda {
+                border: #360 solid 2px;
+
+            }
+
+
+
+
+</style>
+
+
+</head>
+
+<body background="_imagens/Wood-Background.jpg">
+    <div align="center"><img src="_imagens/1368221244slide2-1.png" align="center"/></div>
+    <div style="position:absolute; left:600px; top:5px; z-index: 1; background: rgba(255,255,255,.3);  "><a href="index.html"><img src="_imagens/logo casa das marmitas.png" /></a></div>
+
+
+
+    <div id="all">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#pedido2">Faça Seu Pedido</a></li>
+                <li><a href="#fale">Fale Conosco</a></li>
+            </ul>
+        </div>
+
+
+<div class="gallery autoplay items-5">
+    <div id="item-1" class="control-operator"></div>
+    <div id="item-2" class="control-operator"></div>
+    <div id="item-3" class="control-operator"></div>
+    <div id="item-4" class="control-operator"></div>
+    <div id="item-5" class="control-operator"></div>
+    
+    
+
+    <figure class="item">
+        <img src="_imagensSlide/8.jpg" alt="1" />
+    </figure>
+
+    <figure class="item">
+        <img src="_imagensSlide/9.jpg" alt="2" />
+    </figure>
+
+    <figure class="item">
+        <img src="_imagensSlide/10.jpg" alt="3" width="800px" />
+    </figure>
+
+    <figure class="item">
+        <img src="_imagensSlide/4.jpg" alt="4" />
+    </figure>
+
+    <figure class="item">
+        <img src="_imagensSlide/5.jpg" alt="5" />
+    </figure>
+
+
+    <div class="controls">
+      <a href="#item-1" class="control-button">•</a>
+      <a href="#item-2" class="control-button">•</a>
+      <a href="#item-3" class="control-button">•</a>
+      <a href="#item-4" class="control-button">•</a>
+      <a href="#item-5" class="control-button">•</a>
+    </div>
+  </div>
+
+
+<br/>
+
+<div id="corpo">
+    
+    <br />
+
+    <div id="cardapio">
+    
+    <p align="center"><img src="_imagens/cardapio (1).png" /></p>
+    
+    <!--
+    <h1><a href="#" onclick="window.open('_imagensSlide/2.jpg', 'Pagina', 'STATUS=NO, TOOLBAR=NO, LOCATION=NO, DIRECTORIES=NO, RESISABLE=NO, SCROLLBARS=NO, TOP=220, LEFT=300, WIDTH=770, HEIGHT=400');">Marmita 1</a></h1>*/
+
+    -->
+    
+        <div id="m1">
+            <a href="marmita1.html"><img src="_imagens/incone 2 restaurante R.png"></a>
+            <h1><a href="marmita1.html">Marmita 1</a></h1><hr>
+            <p> Arroz, feijão, bife e salada de tomate.</p>
+            <p> R$ 15,00</p>
+        </div>
+
+        <div id="m2">
+            <a href="marmita2.html"><img src="_imagens/incone 2 restaurante G.png"></a>
+            <h1><a href="marmita2.html">Marmita 2</a></h1><hr>
+            <p>Arroz, feijão, bife e ovo frito.</p>
+            <p>R$ 18,00</p>
+        </div>
+
+        <div id="m3">
+            <a href="marmita3.html"><img src="_imagens/incone 2 restaurante O.png"></a>
+            <h1><a href="marmita3.html">Marmita 3</a></h1><hr>
+            Arroz, feijão, filé de frango, creme de milho.<br />
+            R$ 14,00
+        </div>
+
+        <div id="m4">
+            <a href="marmita4.html"><img src="_imagens/incone 2 restaurante B.png"></a>
+            <h1><a href="marmita4.html">Marmita 4</a></h1><hr>
+            Arroz, feijão, filé de frango e salada de tomate.<br />
+            R$ 10,00
+        </div>
+
+    </div>
+        
+    <div id="pedido2">
+       
+        <h1><big>Faça Seu Pedido</big></h1>
+        <br/><h3><p><b><u>Pedidos e Encomendas:</u></b></p></h3><br/>
+        <p><big><b>Telefone:</b> (99) 9 9999-9999 / (11) 1 1111-1111 - <b>Email:</b> casadasmarmitas@xmail.com</p></big>
+        
+    </div>
+
+    <div id="fale">
+        <br/>    
+        <h1 align="center"><big>Fale Conosco</big></h1>
+
+        <form method="post" action="">
+            <span>Nome:</span><br/><input type="text" name="nome2" class="borda"><br/>
+            <span>E-Mail:</span><br/><input type="text" name="email2" class="borda"><br/>
+            <span>Telefone:</span><br/><input type="text" name="telefone2" class="borda"><br/>
+            <span>Assunto:</span><br/><input type="text" name="assunto2" class="borda"><br/>
+            <span>Mensagem:</span><br/><textarea cols="50" rows="10" name="mensagem2" class="borda"></textarea><br/>
+            <input type="submit" name="enviar2" value="Enviar" />
+            <input type="reset" name="limpa2" value="Limpar" />
+        </form>
+
+            <!--<form action="#" method="post" name="contato">
+            <table id="tabela" width="200" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+
+                    <td>Nome:</td>
+                    <td><input type="text" name="txt_nome" class="borda" /></td>
+                </tr>
+
+                <tr>
+                    <td>E-mail:</td>
+                     <td><input type="text" name="txt_email" class="borda"/></td>
+                </tr>
+
+                <tr>
+                    <td>Telefone:</td>
+                    <td><input type="text" name="txt_telefone" class="borda"/></td>
+                </tr>
+
+                <tr>
+                    <td>Assunto:</td>
+                    <td><input type="text" name="txt_assunto" class="borda"/></td>
+                </tr>
+
+                <tr>
+                    <td>Mensagem:</td>
+                    <td><textarea name="mensagem" cols="20" rows="5" class="borda"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="reset" value="Limpar">&nbsp;<input type="submit" value="Enviar"></td>
+                </tr>
+
+            </table>
+                
+            </form> -->
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
